@@ -1,10 +1,10 @@
 ---
-title: "Welcome to Portfolio - Mariana"
+title: "Portfólio: Mariana Costa"
 description: |
-  Welcome to our new blog, Portfolio - Mariana. We hope you enjoy 
+  Welcome to our new blog, Portfolio da Mariana. We hope you enjoy 
   reading what we have to say!
 author:
-  - name: Nora Jones 
+  - name: Mariana Costa 
     url: https://example.com/norajones
     affiliation: Spacely Sprockets
     affiliation_url: https://example.com/spacelysprokets
