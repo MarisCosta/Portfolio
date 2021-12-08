@@ -2,7 +2,7 @@
   {
     "path": "posts/welcome/",
     "title": "Portfólio: Mariana Costa",
-    "description": "Welcome to our new blog, Portfolio da Mariana. We hope you enjoy \nreading what we have to say!",
+    "description": "Welcome to our new blog, Portfolio de Mariana. We hope you enjoy \nreading what we have to say!",
     "author": [
       {
         "name": "Mariana Costa",
@@ -13,7 +13,24 @@
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-12-07T01:39:42-03:00",
+    "last_modified": "2021-12-07T01:48:55-03:00",
     "input_file": "welcome.knit.md"
+  },
+  {
+    "path": "posts/2021-12-07-anlise-da-base-rais/",
+    "title": "Análise da base RAIS",
+    "description": "Essa análise teve como objetivo analisar os salárias na base RAIS. Esse projeto foi feito na Semana Data Science na prático do Curso-R.",
+    "author": [
+      {
+        "name": "Mariana Costa",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-12-07",
+    "categories": [],
+    "contents": "\r\nEsse é o meu primeiro projeto no portfólio.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-12-07T01:46:42-03:00",
+    "input_file": "anlise-da-base-rais.knit.md"
   }
 ]

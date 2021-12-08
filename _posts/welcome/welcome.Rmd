@@ -1,7 +1,7 @@
 ---
 title: "Portfólio: Mariana Costa"
 description: |
-  Welcome to our new blog, Portfolio da Mariana. We hope you enjoy 
+  Welcome to our new blog, Portfolio de Mariana. We hope you enjoy 
   reading what we have to say!
 author:
   - name: Mariana Costa 
