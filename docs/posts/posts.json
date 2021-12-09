@@ -19,18 +19,18 @@
   {
     "path": "posts/2021-12-07-anlise-da-base-rais/",
     "title": "Análise da base RAIS",
-    "description": "Essa análise teve como objetivo analisar os salárias na base RAIS. Esse projeto foi feito na Semana Data Science na prático do Curso-R.",
+    "description": "Essa análise teve como objetivo analisar os salários na base RAIS. Esse projeto foi feito na Semana Data Science na prático do Curso-R.",
     "author": [
       {
         "name": "Mariana Costa",
-        "url": "https://example.com/norajones"
+        "url": {}
       }
     ],
     "date": "2021-12-07",
     "categories": [],
     "contents": "\r\nEsse é o meu primeiro projeto no portfólio.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-12-07T01:46:42-03:00",
+    "last_modified": "2021-12-08T00:04:30-03:00",
     "input_file": "anlise-da-base-rais.knit.md"
   }
 ]
