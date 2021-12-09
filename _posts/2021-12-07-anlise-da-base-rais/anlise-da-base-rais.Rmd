@@ -14,4 +14,38 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Esse é o meu **primeiro projeto** no portfólio.
+Nesse relatório estamos interessados em saber em responder a pergunta:
+
+"Quanto ganha um ciestista de dados?"
+
+Para isso, vamos acessar a base da RAIS.
+
+# Acessando os dados da RAIS
+
+Vamos utilizar [o datalake da iniciativa base dos dados](https://basedosdados.org).
+
+
+```{r message=FALSE, warning=FALSE}
+
+library(bigrquery)
+library(dplyr)
+```
+
+Abaixo está o código que carrega as primeira 5 linhas da tabela de microdados.
+
+```{r message=FALSE, warning=FALSE}
+
+bigrquery::bq_auth("marianascosta77@gmail.com")
+
+conexao <- dbConnect (
+  bigquery(),
+  project = "basedosdados",
+  dataset = "br_me_rais",
+  billing = "sodium-replica-334503"
+)
+
+primeiras_cinco_linhas <- collect(head(select(tbl(conexao, "microdados_vinculos"), everything()), 5))
+
+knitr::kable(primeiras_cinco_linhas)
+```
+
